@@ -6,10 +6,12 @@ Gem::Specification.new do |s|
   s.author            = "RailApp"
   s.email             = "railapp@gmail.com"
   s.homepage          = "http://railapp.com/"
+  s.files             = ["README"]
   s.summary           = "RailAppGem: ruby on rails application starter gems and testing tools"
   s.require_path      = "lib"
   s.autorequire       = "railapp"
   s.has_rdoc          = true
+  s.extra_rdoc_files  = ["README"]
 
   dependencies = "
 
